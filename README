@@ -54,7 +54,7 @@ Browser configuration:
 Build/Run Instructions
 ======================
 
-Build/run using: mvn jetty:run         (and have a cup of tea (coffee), if you happen to have an empty local maven repo)
+Build/run using: mvn jetty:run -Djetty.port=`yourport`       (and have a cup of tea (coffee), if you happen to have an empty local maven repo)
 
 
 Available Servlets
